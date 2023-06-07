@@ -1,5 +1,7 @@
-export const resolvers = {
+const resolvers = {
   Query: {
     dinosaurs: () => [{ name: 'Rex' }]
   }
 }
+
+export { resolvers }
